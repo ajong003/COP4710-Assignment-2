@@ -1,6 +1,6 @@
 -- List the location(s) of the department where the employee with 'Michael' as a dependent, works for. -- [q1.sql]
 
-SELECT dlocation
+SELECT dlocation as DLocation
 from dept_locations
 WHERE dnumber =                                            -- dnumber must be the same as the dnumber from the subquery (subquery returns 1 result so "any" or "In" is not needed) 
 
